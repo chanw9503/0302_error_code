@@ -1,0 +1,35 @@
+.add-form {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  margin: 0 auto;
+
+  border-radius: 15px;
+
+  background-color: #eee;
+}
+
+.text_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.text_list > input {
+  width: 250px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+}
+
+#add_card_btn {
+  width: 120px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+}
